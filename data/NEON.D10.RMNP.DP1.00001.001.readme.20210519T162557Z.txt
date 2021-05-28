@@ -1,0 +1,585 @@
+This data package been produced by and downloaded from the National Ecological Observatory Network, managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at http://data.neonscience.org/data-policy. 
+
+DATA PRODUCT INFORMATION
+------------------------
+
+ID: NEON.DOM.SITE.DP1.00001.001
+
+Name: 2D wind speed and direction
+
+Description: Two-dimensional wind speed and direction, available as two- and thirty-minute aggregations of 1 Hz observations.  Observations are made by 2-D sonic anemometer sensors located at multiple heights on the tower infrastructure and by 2-D sonic anemometer sensors located on the aquatic meteorological station.
+
+NEON Science Team Supplier: TIS
+
+Abstract: Wind plays an important role in atmospheric and environmental sciences. A function of differential heating of Earth’s surface and subsequent pressure gradients, horizontal and vertical winds are responsible for advection of atmospheric pollutants, moisture, heat and momentum (Stull 1988). As such, horizontal and vertical winds will be measured throughout the Observatory.
+
+Latency:
+Data collected in any given month are published during the second full week of the following month.
+
+Brief Design Description: Multiple 2D anemometers are deployed at tower sites. They are located on each boom arm below the tower-top level at terrestrial sites. A single 2D anemometer is located at the top of the aquatic met station at a standard height of 3m above ground level. Two- and thirty-minute averages of horizontal wind speed and direction are calculated. Each 2D anemometer represents the point at which it is placed on the tower infrastructure.
+
+Brief Study Area Description: 2D wind speed is measured at all NEON terrestrial and aquatic sites except for BLWA and TOMB.
+
+Sensor(s): Gill - Wind Observer II; Extreme Weather Wind Observer
+
+Keywords: met station, sonic anemometer, wind direction, wind speed, horizontal wind, meteorological station, tower
+
+QUERY INFORMATION
+-----------------
+
+Date-Time for Data Publication: 2021-05-19 16:25 (UTC)
+Start Date-Time for Queried Data: 2020-09-01 00:00 (UTC)
+End Date-Time for Queried Data: 2020-10-01 00:00 (UTC)
+
+Site: RMNP
+Geographic coordinates (lat/long datum): 40.275903 -105.545955 WGS 84
+Domain: D10
+
+This zip package was generated on: 2021-05-19 16:25 (UTC)
+
+DATA PACKAGE CONTENTS
+---------------------
+
+This zip package contains the following documentation files:
+
+- This readme file: NEON.D10.RMNP.DP1.00001.001.readme.20210519T162557Z.txt
+- Term descriptions, data types, and units: NEON.D10.RMNP.DP1.00001.001.variables.20210519T162557Z.csv
+- Machine-readable metadata file describing the data package: NEON.D10.RMNP.DP1.00001.001.EML.20200901-20201001.20210519T162557Z.xml. This file uses the Ecological Metadata Language schema. Learn more about this specification and tools to parse it at http://data.neonscience.org/faq.
+- Sensor position information: NEON.D10.RMNP.DP1.00001.001.sensor_positions.20210519T162557Z.csv
+- Other related documents, such as engineering specifications, field protocols and data processing documentation: 
+NEON.DOC.000387vC
+NEON.DOC.011081vC
+NEON.DOC.000783vA
+NEON.DOC.001113vB
+NEON.DOC.000780vB
+
+Additional documentation for this data product or other related documentation are available at http://data.neonscience.org/documents.
+
+This zip package also contains 8 data files:
+NEON.D10.RMNP.DP1.00001.001.000.040.002.2DWSD_2min.2020-09.basic.20210519T162557Z.csv - 2D wind speed and direction averaged over 2 minutes
+NEON.D10.RMNP.DP1.00001.001.000.040.030.2DWSD_30min.2020-09.basic.20210519T162557Z.csv - 2D wind speed and direction averaged over 30 minutes
+NEON.D10.RMNP.DP1.00001.001.000.020.030.2DWSD_30min.2020-09.basic.20210519T162557Z.csv - 2D wind speed and direction averaged over 30 minutes
+NEON.D10.RMNP.DP1.00001.001.000.020.002.2DWSD_2min.2020-09.basic.20210519T162557Z.csv - 2D wind speed and direction averaged over 2 minutes
+NEON.D10.RMNP.DP1.00001.001.000.010.030.2DWSD_30min.2020-09.basic.20210519T162557Z.csv - 2D wind speed and direction averaged over 30 minutes
+NEON.D10.RMNP.DP1.00001.001.000.030.002.2DWSD_2min.2020-09.basic.20210519T162557Z.csv - 2D wind speed and direction averaged over 2 minutes
+NEON.D10.RMNP.DP1.00001.001.000.010.002.2DWSD_2min.2020-09.basic.20210519T162557Z.csv - 2D wind speed and direction averaged over 2 minutes
+NEON.D10.RMNP.DP1.00001.001.000.030.030.2DWSD_30min.2020-09.basic.20210519T162557Z.csv - 2D wind speed and direction averaged over 30 minutes
+
+Basic download package definition: Includes the data product, summary statistics, expanded uncertainty, and final quality flag.
+
+Expanded download package definition: Includes the basic package information plus quality metrics for all of the quality assessment and quality control analyses.
+
+FILE NAMING CONVENTIONS
+-----------------------
+
+NEON data files are named using a series of component abbreviations separated by periods. File naming conventions for NEON data files differ between NEON science teams. A file will have the same name whether it is accessed via the data portal or the API.
+
+NEON instrumented systems (IS) data files: NEON.DOM.SITE.DPL.PRNUM.REV.HOR.VER.TMI.DESC.YYYY-MM.PKGTYPE.GENTIME.csv
+
+The definitions of component abbreviations are below. See NEON.DOC.002651: NEON Data Product Numbering Convention, located at http://data.neonscience.org/documents for more information.
+
+General conventions, used for all data products:
+   NEON: denotes the organizational origin of the data product and identifies the product as operational; data collected as part of a special data collection exercise are designated by a separate, unique alphanumeric code created by the PI.
+
+   DOM: a three-character alphanumeric code, referring to the domain of data acquisition (D01 - D20).
+
+   SITE: a four-character alphanumeric code, referring to the site of data acquisition; all sites are designated by a standardized four-character alphabetic code.
+
+   DPL: a three-character alphanumeric code, referring to data product processing level;
+
+   PRNUM: a five-character numeric code, referring to the data product number (see the Data Product Catalog at http://data.neonscience.org/data-product-catalog).
+
+   REV: a three-digit designation, referring to the revision number of the data product. The REV value is incremented by 1 each time a major change is made in instrumentation, data collection protocol, or data processing such that data from the preceding revision is not directly comparable to the new.
+
+   HOR: a three-character designation, referring to measurement locations within one horizontal plane. For example, if five surface measurements were taken, one at each of the five soil array plots, the number in the HOR field would range from 001-005. 
+
+   VER: a three-character designation, referring to measurement locations within one vertical plane. For example, if eight air temperature measurements are collected, one at each tower vertical level, the number in the VER field would range from 010-080. If five soil temperature measurements are collected below the soil surface, the number in the VER field would range from 501-505. 
+
+   TMI: a three-character designation, referring to the temporal representation, averaging period, or coverage of the data product (e.g., minute, hour, month, year, sub-hourly, day, lunar month, single instance, seasonal, annual, multi-annual). 000 = native resolution, 001 = native resolution (variable or regular) or 1 minute, 002 = 2 minute, 005 = 5 minute, 015 = 15 minute, 030 = 30 minute, 060 = 60 minutes or 1 hour, 100 = approximately once per minute at stream sites and once every 5-10 minutes at buoy sites (lakes/rivers), 101-103 = native resolution of replicate sensor 1, 2, and 3 respectively, 999 = Sensor conducts measurements at varied interval depending on air mass, 01D = 1 day, 01M = 1 month, 01Y = 1 year.
+
+   DESC: an abbreviated description of the data file or table.
+
+   YYYY-MM: the year and month of the data in the file.
+
+   PKGTYPE: the type of data package downloaded. Options are 'basic', representing the basic download package, or 'expanded',representing the expanded download package (see more information below).
+
+   GENTIME: the date-time stamp when the file was generated, in UTC. The format of the date-time stamp is YYYYMMDDTHHmmSSZ.
+
+Time stamp conventions:
+   YYYY: Year
+   YY: Year, last two digits only
+   MM: Month: 01-12
+   DD: Day: 01-31
+   T: Indicator that the time stamp is beginning
+   HH: Hours: 00-23
+   mm: Minutes: 00-59
+   SS: Seconds: 00-59
+   Z: Universal Time Coordinated (Universal Coordinated Time), or UTC
+
+ADDITIONAL INFORMATION
+----------------------
+
+Data products that are a source of this data product:
+
+Data products that are derived from this data product:
+NEON.DOM.SITE.DP4.00001.001, Summary weather statistics
+
+Other related data products (by sensor, protocol, or variable measured):
+NEON.DOM.SITE.DP1.20059.001, Windspeed and direction above water on-buoy
+NEON.DOM.SITE.DP1.00007.001, 3D wind speed, direction and sonic temperature
+
+CHANGE LOG
+----------
+
+Issue Date: 2019-08-02
+Issue: Sensors streaming while boom was fully retracted
+       Date Range: 2019-07-01 to 2021-04-30
+       Location(s) Affected: HARV ML3(HOR.VER.000.030) and ML4 (HOR.VER.000.040)
+Resolution Date: 
+Resolution: Ongoing. Manual flagging is being applied.
+
+Issue Date: 2020-11-06
+Issue: An error in the computation of average wind direction causes wind direction data to be absent around the 360 to ~5 degrees range.
+       Date Range: 2013-01-01 to 2021-12-31
+       Location(s) Affected: All
+Resolution Date: 
+Resolution: No resolution to date. Further investigation in the wind direction averaging algorithm is needed.
+
+Issue Date: 2021-01-11
+Issue: Safety measures to protect personnel during the COVID-19 pandemic resulted in reduced or eliminated maintenance activities for extended periods at NEON sites. Data availability and/or quality may be negatively impacted during this time, and extra scrutiny of data is advised.
+
+The annual refresh of sensors and data acquisition systems (DAS) also did not occur according to the typical 1-year schedule for many sites. The annual refresh is where freshly calibrated and verified sensors and DAS replace the units that have been deployed for a year. While NEON is working towards implementing automated drift estimations/corrections on calibrated data products and flagging related to sensors that fall outside the policy for calibration frequency, this had not been implemented at the time of COVID impacts. 
+
+The following sites had annual refreshes canceled in 2020 and will likely go up to two years of deployment for their sensors:
+BLWA (due May 2020)
+TOMB (due May 2020)
+BARR (due June 2020)
+BLUE (due Sept 2020)
+BART (due Aug 2020)
+NOGP (due Aug 2020)
+SOAP (due Sept 2020)
+       Date Range: 2020-03-23 to 2021-06-01
+       Location(s) Affected: ALL
+Resolution Date: 
+Resolution: 
+
+Issue Date: 2021-04-13
+Issue: Sensor was streaming while buried in snow
+       Date Range: 2021-03-14 to 2021-03-23
+       Location(s) Affected: D10 RMNP Measurement level 1 (ML1, HOR.VER.000.010)
+Resolution Date: 2021-04-13
+Resolution: Manual flagging applied
+
+Issue Date: 2021-04-07
+Issue: Manual flagging applied to wind direction accounting for an incorrect sensor orientation facing -90 degrees relative to the algorithm's designated orientation of 0 degrees.
+       Date Range: 2021-03-31 to 2021-03-31
+       Location(s) Affected: TECR (200.000)
+Resolution Date: 2021-04-12
+Resolution: Resolved, manual flagging removed.
+
+Issue Date: 2021-03-18
+Issue: Sensor likely obstructed by snow, showing dampened variability.
+       Date Range: 2020-02-20 to 2020-04-22
+       Location(s) Affected: YELL measurement level 1 (000.010)
+Resolution Date: 2021-03-18
+Resolution: Manual flagging applied in provisional data and RELEASE-2022 and later. Note that affected data will remain unflagged in RELEASE-2021.
+
+Issue Date: 2021-03-15
+Issue: Sensor was rotated 90 degrees from spec. Sensor was intended to be pointed to 240 degrees SW, instead sensor was pointed at 150 degrees SE
+       Date Range: 2020-08-05 to 2021-03-09
+       Location(s) Affected: D09 DCFS Measurement level 2 (ML2, HOR.VER.000.020)
+Resolution Date: 2021-03-15
+Resolution: Manual flagging applied
+
+Issue Date: 2021-03-04
+Issue: Sensor was streaming while boom was retracted
+       Date Range: 2021-02-16 to 2021-02-16
+       Location(s) Affected: D08 DELA Measurement level 5 (ML5, HOR.VER.000.050)
+Resolution Date: 2021-03-04
+Resolution: Manual flagging applied
+
+Issue Date: 2020-12-14
+Issue: Fallen tree destroyed sensor mount infrastructure.
+       Date Range: 2020-12-13 to 2021-03-03
+       Location(s) Affected: BIGC (HOR.VER: 200.000)
+Resolution Date: 2021-03-03
+Resolution: Infrastructure repaired, sensor returned to proper position.
+
+Issue Date: 2021-03-02
+Issue: Obvious sensor malfunction identified during data review.
+       Date Range: 2017-03-16 to 2017-03-19
+       Location(s) Affected: DEJU (000.010)
+       Date Range: 2017-05-19 to 2017-05-22
+       Location(s) Affected: RMNP (000.010)
+       Date Range: 2018-12-12 to 2018-12-15
+       Location(s) Affected: DELA (000.020)
+       Date Range: 2019-08-05 to 2019-08-14
+       Location(s) Affected: DELA (000.010)
+       Date Range: 2019-09-30 to 2019-11-01
+       Location(s) Affected: SERC (000.010)
+       Date Range: 2019-10-07 to 2019-10-14
+       Location(s) Affected: TOOL (000.010)
+       Date Range: 2020-09-06 to 2020-09-06
+       Location(s) Affected: PUUM (000.010)
+Resolution Date: 2021-03-02
+Resolution: Manual flagging applied in provisional data and RELEASE-2022 and later. Note that data prior to 2020-07 in this issue log will remain unflagged in RELEASE-2021.
+
+Issue Date: 2021-01-14
+Issue: Sensor mounting bracket was bent by a tree leaving the sensor hanging well out of spec.
+       Date Range: 2020-10-29 to 2020-12-29
+       Location(s) Affected: D08 DELA measurement level three (ML3, HOR.VER.000.030)
+Resolution Date: 2021-01-14
+Resolution: Manual flagging applied
+
+Issue Date: 2020-11-04
+Issue: Sensor was bent out of spec by a tree limb
+       Date Range: 2019-11-08 to 2020-02-18
+       Location(s) Affected: SERC Measurement level 3 (ML3, 000.030)
+Resolution Date: 2020-11-04
+Resolution: Manual flagging applied.
+
+Issue Date: 2020-10-19
+Issue: Aquatics met station infrastructure damaged and bent.
+       Date Range: 2018-09-19 to 2018-11-02
+       Location(s) Affected: REDB (200.000)
+Resolution Date: 2020-10-19
+Resolution: Manual flagging applied
+
+Issue Date: 2020-10-15
+Issue: Sensor was streaming while on-site troubleshooting occurred
+       Date Range: 2020-02-18 to 2020-02-18
+       Location(s) Affected: D11 OAES measurement level 2 (ML2, 000.020)
+Resolution Date: 2020-10-15
+Resolution: Manual flagging applied
+
+Issue Date: 2020-10-13
+Issue: 2D Wind sensor was bent out of spec by tree branch.
+       Date Range: 2020-10-21 to 2020-10-21
+       Location(s) Affected: D08 DELA Measurement Level 3 (ML3, 000.030)
+Resolution Date: 2020-10-13
+Resolution: Data manually flagged
+
+Issue Date: 2020-08-13
+Issue: sensor malfunction resulted in implausible measurements inconsistent with adjacent tower levels and not caught by automated flagging routines
+       Date Range: 2018-01-04 to 2018-01-06
+       Location(s) Affected: OSBS tower level 1 (HOR.VER:000.010)
+Resolution Date: 2020-08-13
+Resolution: Data manually flagged.
+
+Issue Date: 2020-06-10
+Issue: All data were reprocessed with the most recent algorithms, quality control thresholds, and/or other metadata to improve overall data coverage and quality. Notes have been added to the logs of previously identified issues that have been corrected.
+       Date Range: 2013-01-01 to 2020-06-10
+       Location(s) Affected: All sites
+Resolution Date: 2020-06-10
+Resolution: 
+
+Issue Date: 2020-06-09
+Issue: Inconsistent orientation led to inaccurate wind-direction data
+       Date Range: 2012-01-01 to 2017-12-31
+       Location(s) Affected: HARV (HOR.VER: 000.040)
+       Date Range: 2012-01-01 to 2019-05-13
+       Location(s) Affected: KONZ (HOR.VER: 000.030)
+       Date Range: 2012-01-01 to 2020-06-09
+       Location(s) Affected: RMNP (All HOR.VERs:000.010 - 000.040), ONAQ(HOR.VER:000.010),
+Resolution Date: 2020-06-09
+Resolution: Data manually flagged or redacted
+
+Issue Date: 2020-06-09
+Issue: Anomolously high wind speeds (>15 m/s) which also impact wind direction. Possible axis failure
+       Date Range: 2015-01-01 to 2015-10-31
+       Location(s) Affected: SCBI (HOR.VER: 000.020)
+       Date Range: 2015-06-01 to 2016-05-31
+       Location(s) Affected: JORN (HOR.VER: 000.010)
+Resolution Date: 2020-06-09
+Resolution: Data redacted.
+
+Issue Date: 2020-06-09
+Issue: Inconsistent orientation led to inaccurate wind-direction data
+       Date Range: 2018-11-05 to 2018-11-20
+       Location(s) Affected: DEJU (HOR.VER: 000.040)
+       Date Range: 2019-03-16 to 2020-06-09
+       Location(s) Affected: GRSM (HOR.VER: 000.010)
+Resolution Date: 2020-06-09
+Resolution: Data manually flagged or redacted
+
+Issue Date: 2020-01-02
+Issue: Widespread inaccuracy in sensor orientation likely causing wind direction offset
+       Date Range: 2012-01-01 to 2017-06-30
+       Location(s) Affected: BART (HOR.VER 000.010 to 000.050),   HARV (HOR.VER 000.010 to 000.050), BLAN (HOR.VER 000.010 to 000.030),  SERC (HOR.VER 000.010 to 000.050),   DSNY (HOR.VER 000.010 to 000.030),  JERC (HOR.VER 000.010 to 000.050),   OSBS (HOR.VER 000.010 to 000.050),   GUAN (HOR.VER 000.010 to 000.040),  LAJA (HOR.VER 000.010 to 000.030),   UNDE (HOR.VER 000.010 to 000.050), TREE (HOR.VER 000.010 to 000.050),   ORNL (HOR.VER 000.010 to 000.050),   MLBS (HOR.VER 000.010 to 000.050),   UKFS (HOR.VER 000.010 to 000.050),    KONZ (HOR.VER 000.010 to 000.030),   KONA (HOR.VER 000.010 to 000.030),   WOOD (HOR.VER 000.010 to 000.030), DELA (HOR.VER 000.010 to 000.050),  TALL (HOR.VER 000.010 to 000.050),   LENO (HOR.VER 000.010 to 000.050),   CPER (HOR.VER 000.010 to 000.030),   RMNP (HOR.VER 000.010 to 000.040), STER (HOR.VER 000.010 to 000.030),  CLBJ (HOR.VER 000.010 to 000.040),   OAES (HOR.VER 000.010 to 000.030),   NIWO (HOR.VER 000.010 to 000.030),  MOAB (HOR.VER 000.010 to 000.030),JORN (HOR.VER 000.010 to 000.030),   SRER (HOR.VER 000.010 to 000.030),   ABBY (HOR.VER 000.010 to 000.040),  ONAQ (HOR.VER 000.010 to 000.030), BARR (HOR.VER 000.010 to 000.030), TOOL (HOR.VER 000.010 to 000.030), DEJU (HOR.VER 000.010 to 000.040), HEAL (HOR.VER 000.010 to 000.030)
+Resolution Date: 2020-06-01
+Resolution: Blanket manual flagging applied, with fine tuned dates coming at a later time. Edit: 2020-06-01, Large majority of issues fixed with analysis and re-processing. Flags were removed for most HOR.VERs, with exceptions noted in another log.
+
+Issue Date: 2020-05-14
+Issue: Likely erroneous data, inconsistent with adjacent tower levels.
+       Date Range: 2018-10-08 to 2020-10-22
+       Location(s) Affected: TREE tower level 4 (000.040)
+       Date Range: 2018-11-17 to 2018-11-29
+       Location(s) Affected: GRSM tower level 2 (000.020)
+       Date Range: 2019-08-21 to 2019-08-23
+       Location(s) Affected: TREE tower level 1 (000.010)
+Resolution Date: 2020-05-14
+Resolution: Data manually flagged.
+
+Issue Date: 2020-03-25
+Issue: sensor malfuction during snowmelt caused unrealistic variation
+       Date Range: 2019-03-13 to 2019-03-17
+       Location(s) Affected: YELL tower level 1 (HOR.VER=000.010)
+Resolution Date: 2020-03-25
+Resolution: Data manually flagged.
+
+Issue Date: 2020-01-30
+Issue: Sensor not level
+       Date Range: 2020-01-20 to 2020-01-30
+       Location(s) Affected: KING (HOR.VER: 200.00)
+Resolution Date: 2020-01-30
+Resolution: Sensor boom leveled
+
+Issue Date: 2020-01-14
+Issue: Sensor streaming while troubleshooting was being performed.
+       Date Range: 2020-01-07 to 2020-01-07
+       Location(s) Affected: UKFS ML5 (HOR.VER: 000.050)
+Resolution Date: 2020-01-14
+Resolution: Manual flagging applied
+
+Issue Date: 2020-03-26
+Issue: The alpha and beta quality metric multipliers used for computing the final quality flag were swapped in processing. The final quality flag is raised when alphaQM*m + betaQM*n >= 20%. The multiplier m should be set to 2 and n should be set to 1, but these values were swapped, making it slightly harder to raise the final quality flag. These multipliers were corrected in data produced after the resolution date. Data prior to the resolution date will be reprocessed prior to the first NEON data release. An additional changelog comment will be entered at that time.
+       Date Range: 2020-01-08 to 2020-01-08
+       Location(s) Affected: All
+Resolution Date: 2020-01-08
+Resolution: 2020-01-08: Processing code corrected in forward processing. 
+2020-06-10: All data reprocessed. Issue corrected.
+
+Issue Date: 2020-01-06
+Issue: Sensor malfunction resulted in implausible measurements that were not identified by automated flagging
+       Date Range: 2018-08-08 to 2018-08-08
+       Location(s) Affected: BLAN (HOR.VER: 000.010)
+       Date Range: 2018-10-03 to 2018-10-03
+       Location(s) Affected: SERC (HOR.VER:  000.030)
+       Date Range: 2018-11-30 to 2019-01-12
+       Location(s) Affected: CLBJ (HOR.VER: 000.010)
+       Date Range: 2019-01-12 to 2019-01-12
+       Location(s) Affected: OSBS (HOR.VER:  000.010)
+       Date Range: 2019-02-14 to 2019-04-01
+       Location(s) Affected: WREF (HOR.VER: 000.010)
+       Date Range: 2019-03-03 to 2019-04-16
+       Location(s) Affected: TEAK (HOR.VER: 000.050)
+       Date Range: 2019-03-09 to 2019-04-14
+       Location(s) Affected: YELL (HOR.VER: 000.010)
+       Date Range: 2019-06-06 to 2019-06-06
+       Location(s) Affected: DEJU (HOR.VER: 000.020)
+       Date Range: 2020-01-08 to 2020-01-09
+       Location(s) Affected: OAES (HOR.VER 000.020)
+       Date Range: 2020-04-08 to 2020-04-08
+       Location(s) Affected: TEAK (HOR.VER: 000.050)
+Resolution Date: 2020-01-06
+Resolution: Manual flagging applied
+
+Issue Date: 2019-12-16
+Issue: Sensor streaming while boom was retracted.
+       Date Range: 2019-12-05 to 2019-12-10
+       Location(s) Affected: CLBJ ML2 (HOR.VER.000.020)
+Resolution Date: 2019-12-16
+Resolution: manually flagged affected data
+
+Issue Date: 2019-11-18
+Issue: suspect sensor orientation likely causing wind direction offset
+       Date Range: 2012-01-01 to 2017-04-25
+       Location(s) Affected: SCBI all tower levels (HOR.VER: 000.010 to 000.050)
+       Date Range: 2017-10-04 to 2017-12-09
+       Location(s) Affected: TALL tower levels 1 and 2 (HOR.VER: 000.010, 000.020)
+Resolution Date: 2019-11-18
+Resolution: manually flagged affected data
+
+Issue Date: 2019-10-30
+Issue: Sensor installed with a rotation of 180 degrees from spec
+       Date Range: 2018-04-24 to 2019-04-04
+       Location(s) Affected: LIRO (HOR.VER.200.000)
+Resolution Date: 2019-10-30
+Resolution: Manual flagging applied
+
+Issue Date: 2019-10-10
+Issue: Sensor fell off mounting bracket while still streaming
+       Date Range: 2019-10-06 to 2019-10-09
+       Location(s) Affected: NOGP ML2 (HOR.VER.000.020)
+Resolution Date: 2019-10-10
+Resolution: Sensor reattached. Manual flagging applied.
+
+Issue Date: 2019-09-27
+Issue: Sensor mounting bracket bent off of level by a tree branch
+       Date Range: 2019-08-30 to 2019-09-23
+       Location(s) Affected: UKFS ML4 (HOR.VER.000.040)
+Resolution Date: 2019-09-27
+Resolution: Mounting bracket replaced and manual flagging applied
+
+Issue Date: 2019-08-02
+Issue: Sensor bent 22 degrees off of level by tree
+       Date Range: 2019-05-22 to 2019-06-20
+       Location(s) Affected: TREE ML4 (HOR.VER.000.040)
+Resolution Date: 2019-08-02
+Resolution: Parts replaced. Manual flagging applied
+
+Issue Date: 2019-06-04
+Issue: Sensor streaming while boom was fully retracted
+       Date Range: 2019-06-04 to 2019-06-05
+       Location(s) Affected: WREF ML6 (HOR.VER.000.060)
+Resolution Date: 2019-06-06
+Resolution: Manual flagging applied
+
+Issue Date: 2019-05-31
+Issue: Sensors streaming during measurement level troubleshooting
+       Date Range: 2019-05-30 to 2019-05-30
+       Location(s) Affected: CLBJ ML1 and ML2 (HOR.VER.000.010 and HOR.VER.000.020)
+Resolution Date: 2019-06-05
+Resolution: Manual flagging applied
+
+Issue Date: 2019-05-13
+Issue: Sensor was installed with an orientation 180 degrees off of spec.
+       Date Range: 2019-01-30 to 2019-04-23
+       Location(s) Affected: DSNY ML2 (HOR.VER.000.020)
+Resolution Date: 2019-05-13
+Resolution: Sensor was reinstalled correctly and data manually flagged.
+
+Issue Date: 2019-05-20
+Issue: MET station hit by falling tree
+       Date Range: 2019-04-19 to 2019-05-02
+       Location(s) Affected: POSE (HOR.VER: 200.000)
+Resolution Date: 2019-05-02
+Resolution: MET station leveled.  Manual flagging applied
+
+Issue Date: 2018-04-10
+Issue: Technicians fully retracted the boom due to interference with problem trees. There is potential for flow distortion due to sensor's proximity to infrastructure.
+       Date Range: 2014-11-01 to 2019-04-16
+       Location(s) Affected: HARV tower level 4 (000.040)
+       Date Range: 2015-11-16 to 2015-12-07
+       Location(s) Affected: HARV tower level 4 (000.040)
+Resolution Date: 2019-04-16
+Resolution: Manual flagging applied to affected data.
+
+Issue Date: 2018-04-27
+Issue: Boom fully retracted due to persistent disturbance by trees
+       Date Range: 2015-02-17 to 2019-04-16
+       Location(s) Affected: HARV tower level 3 (000.030)
+Resolution Date: 2019-04-16
+Resolution: Manually flagging applied to data.
+
+Issue Date: 2019-04-04
+Issue: 2D sensor transducer cap became dislodged rendering calibrations invalid.
+       Date Range: 2019-03-14 to 2019-03-31
+       Location(s) Affected: KONZ ML1 (HOR.VER.000.010)
+Resolution Date: 2019-04-04
+Resolution: Sensor swapped. Affected data has had manual flagging applied.
+
+Issue Date: 2019-02-19
+Issue: Processing failures resulted in poor data product coverage for some sites and time periods.
+       Date Range: 2018-01-01 to 2018-10-31
+       Location(s) Affected: All locations.
+Resolution Date: 2019-02-19
+Resolution: Data reprocessed to improve data product coverage.
+
+Issue Date: 2019-02-19
+Issue: 2D sensor was installed with an orientation of 0 degrees when it should have been 270 degrees.
+       Date Range: 2018-12-06 to 2019-02-18
+       Location(s) Affected: TALL ML2 (HOR.VER.000.020)
+Resolution Date: 2019-02-19
+Resolution: Sensor was realigned and affected data flagged
+
+Issue Date: 2018-12-11
+Issue: Mounting bracket was bent by tree limb and wind direction was distorted
+       Date Range: 2018-10-31 to 2018-11-19
+       Location(s) Affected: GRSM ML4 (HOR.VER: 000.040)
+       Date Range: 2018-11-26 to 2018-11-29
+       Location(s) Affected: SERC ML3 (HOR.VER.000.030)
+Resolution Date: 2018-12-11
+Resolution: Mounting bracket was replaced and manual flagging was applied to impacted data.
+
+Issue Date: 2018-09-07
+Issue: Sensor was streaming data while boom was retracted.
+       Date Range: 2018-08-30 to 2018-08-30
+       Location(s) Affected: CLBJ ML4 (HOR.VER 000.040)
+Resolution Date: 2018-09-07
+Resolution: Applied manual flagging
+
+Issue Date: 2018-05-08
+Issue: Sensor not powered down for cleaning.
+       Date Range: 2018-04-19 to 2018-04-19
+       Location(s) Affected: NIWO (HOR.VER 000.020)
+Resolution Date: 2018-05-08
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-03-28
+Issue: A tree branch bent the sensor mount and misaligned the sensor.
+       Date Range: 2018-03-04 to 2018-03-06
+       Location(s) Affected: MLBS tower level 3 (000.030).
+Resolution Date: 2018-03-28
+Resolution: Manual flagging applied to affected data. Sensor disconnected until repaired.
+
+Issue Date: 2018-01-09
+Issue: Removed 2D Wind on ML1 for winterization
+       Date Range: 2017-10-10 to 2018-06-13
+       Location(s) Affected: TOOL
+       Date Range: 2017-10-24 to 2018-05-09
+       Location(s) Affected: NIWO
+       Date Range: 2017-12-11 to 2018-04-25
+       Location(s) Affected: BART
+Resolution Date: 2018-01-09
+Resolution: Sensor reinstalled.
+
+Issue Date: 2018-01-05
+Issue: Ice-forming conditions on 2D wind sensor tines.
+       Date Range: 2017-09-15 to 2017-12-14
+       Location(s) Affected: TOOK
+       Date Range: 2017-10-15 to 2017-12-14
+       Location(s) Affected: CARI
+       Date Range: 2017-10-15 to 2018-03-07
+       Location(s) Affected: HEAL
+       Date Range: 2017-12-28 to 2018-03-19
+       Location(s) Affected: DEJU (HOR.VER: 000.020)
+       Date Range: 2017-12-28 to 2018-05-02
+       Location(s) Affected: DEJU (HOR.VER: 000.030 & 000.040)
+Resolution Date: 2018-01-05
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-01-05
+Issue: Ice-forming conditions on 2D Wind sensor
+       Date Range: 2017-12-28 to 2018-05-02
+       Location(s) Affected: DEJU (HOR.VER: 000.030 and .000.040)
+Resolution Date: 2018-01-05
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-01-05
+Issue: Ice-forming conditions on 2D wind sensor tines.
+       Date Range: 2017-12-28 to 2018-05-02
+       Location(s) Affected: DEJU (HOR.VER: 000.030 and .000.040)
+Resolution Date: 2018-01-05
+Resolution: Applied manual flagging.
+
+Issue Date: 2018-01-23
+Issue: 2D Wind boom seized and orientation was off for 2D Wind Direction.
+       Date Range: 2017-10-06 to 2017-10-23
+       Location(s) Affected: CLBJ
+Resolution Date: 2017-10-23
+Resolution: Fixed orientation of 2D Wind boom.
+
+Issue Date: 2018-05-07
+Issue: Sensor mounting bracket bent by tree and sensor unable to be leveled to specifications.
+       Date Range: 2017-04-12 to 2017-04-21
+       Location(s) Affected: GRSM tower level 4 (000.040)
+Resolution Date: 2017-04-21
+Resolution: New bracket was installed. Data manually flagged.
+
+ADDITIONAL REMARKS
+------------------
+
+Note that the final quality flag for wind direction (windDirFinalQF) in the basic download package includes a test for calm winds, under which the computed wind direction is unreliable (due to light wind speed) though the data quality may still be adequate for scientific purposes. To distinguish between data flagged for calm winds and other quality tests, please download the expanded package.
+
+NEON DATA POLICY AND CITATION GUIDELINES
+----------------------------------------
+
+Please visit http://data.neonscience.org/data-policy for more information about NEON's data policy and citation guidelines.
+
+DATA QUALITY AND VERSIONING
+---------------------------
+
+The data contained in this file are considered provisional. Updates to the data, QA/QC and/or processing algorithms over time will occur on an as-needed basis.  Please check back to this site for updates tracked in change logs.  Query reproducibility on provisional data cannot be guaranteed. 
+ 
+Starting in 2020 or earlier, NEON will begin to offer static versions of each data product, annotated with a globally unique identifier. Versioned IS and OS data will be produced by reprocessing each IS and OS data product from the beginning of the data collection period to approximately 12-18 months prior to the reprocessing date (to allow for calibration checks, return of external lab data, etc.). The reprocessing step will use the most recent QA/QC methods and processing algorithms. Versioned AOP data will be produced by reprocessing the entire AOP archive as advances in algorithms and processing technology are incorporated. This will typically occur in the northern winter months, between flight season peaks, and will be on the order of every 3 to 5 years in frequency.
