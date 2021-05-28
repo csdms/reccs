@@ -33,11 +33,14 @@ can join and help those with less experience.
 *Topics:*
 
 * Introductions
-* CSDMS JupyterHub
-* Jupyter Notebook
 * Why Python?
+* Logging in to the CSDMS JupyterHub
+* Using Jupyter Notebook
 * Python language basics
-* A practical example
+* Importing Python libraries
+* Reading data from a csv file with *pandas*
+* Plotting data with *matplotlib*
+* Saving work to a PDF file
 * Discussion
 
 :arrow_forward: [Run the workshop material on the CSDMS JupyterHub][nbgitpuller-link]
