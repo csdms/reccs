@@ -5,6 +5,12 @@ on using the Python programming language in the geosciences
 to perform data analysis and visualization.
 The workshop is a part of the [RECCS][reccs] program at CU Boulder.
 
+This workshop will not teach the details of Python--others have done this (see "Resources" below),
+and it takes more time than we have.
+The goal of this workshop is to show how working geoscientists
+use some of the plentiful scientific libraries available in Python.
+
+
 ## Instructors
 
 * [Mark Piper](https://instaar.colorado.edu/people/mark-piper/)
@@ -70,7 +76,7 @@ Python:
 * The official [Python tutorial][python-tutorial] is somewhat advanced, but has a lot of information
 * The [TutorialsPoint Python tutorial][tp-tutorial] is also well done, and perhaps easier to follow
 
-CU:
+CU Boulder:
 * [Cooperative Institute for Research in Environmental Sciences (CIRES)][cires]
 * [Community Surface Dynamics Modeling System (CSDMS)][csdms]
 * [EarthLab][earthlab]
@@ -81,6 +87,10 @@ CU:
 CSDMS is supported by the National Science Foundation
 under Award No. [1831623][csdms-award],
 *Community Facility Support: The Community Surface Dynamics Modeling System (CSDMS)*.
+
+Portions of the Python language basics section were derived
+from material that is Copyright Software Carpentry
+and remixed under their [license][swc-license].
 
 NEON (National Ecological Observatory Network). 2D wind speed and direction
 (DP1.00001.001). https://data.neonscience.org (accessed May 26, 2021)
@@ -97,5 +107,6 @@ NEON (National Ecological Observatory Network). 2D wind speed and direction
 [python-tutorial]: https://docs.python.org/3/tutorial/
 [reccs]: https://cires.colorado.edu/outreach/reccs
 [swc]: https://software-carpentry.org/
+[swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
 [swc-python]: https://swcarpentry.github.io/python-novice-inflammation/
 [tp-tutorial]: https://www.tutorialspoint.com/python/index.htm
