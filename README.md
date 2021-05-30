@@ -41,7 +41,7 @@ can join and help those with less experience.
 * Reading data from a csv file with *pandas*
 * Plotting data with *matplotlib*
 * Saving work to a PDF file
-* Discussion
+* Exercises and discussion
 
 :arrow_forward: [Run the workshop material on the CSDMS JupyterHub][nbgitpuller-link]
 
@@ -57,15 +57,21 @@ It covers more advanced topics.
 * Loops, conditionals, try-except block, functions
 * NetCDF and xarray
 * Analysis and visualization with Pangeo
-* Discussion
+* Exercises and discussion
 
 :arrow_forward: [Run the workshop material on the CSDMS JupyterHub][nbgitpuller-link]
 
 
 ## Resources
 
-* [Software Carpentry][scarpentry]
-* [Data Carpentry][dcarpentry]
+Python:
+* [Software Carpentry][swc], especially the [Programming with Python][swc-python] lesson
+* [Data Carpentry][dc]
+* The official [Python tutorial][python-tutorial] is somewhat advanced, but has a lot of information
+* The [TutorialsPoint Python tutorial][tp-tutorial] is also well done, and perhaps easier to follow
+
+CU:
+* [Cooperative Institute for Research in Environmental Sciences (CIRES)][cires]
 * [Community Surface Dynamics Modeling System (CSDMS)][csdms]
 * [EarthLab][earthlab]
 
@@ -82,10 +88,14 @@ NEON (National Ecological Observatory Network). 2D wind speed and direction
 
 <!-- Links -->
 
-[reccs]: https://cires.colorado.edu/outreach/reccs
-[nbgitpuller-link]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs-2021&urlpath=tree%2Freccs-2021%2Fnotebooks%2F0_overview.ipynb&branch=main
-[scarpentry]: https://software-carpentry.org/
-[dcarpentry]: https://datacarpentry.org/
-[earthlab]: https://earthlab.colorado.edu/
+[cires]: https://cires.colorado.edu/
 [csdms]: http://csdms.colorado.edu
 [csdms-award]: https://nsf.gov/awardsearch/showAward?AWD_ID=1831623
+[dc]: https://datacarpentry.org/
+[earthlab]: https://earthlab.colorado.edu/
+[nbgitpuller-link]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs-2021&urlpath=tree%2Freccs-2021%2Fnotebooks%2F0_overview.ipynb&branch=main
+[python-tutorial]: https://docs.python.org/3/tutorial/
+[reccs]: https://cires.colorado.edu/outreach/reccs
+[swc]: https://software-carpentry.org/
+[swc-python]: https://swcarpentry.github.io/python-novice-inflammation/
+[tp-tutorial]: https://www.tutorialspoint.com/python/index.htm
