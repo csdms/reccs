@@ -43,7 +43,7 @@ can join and help those with less experience.
 * Why Python?
 * Logging in to the CSDMS JupyterHub
 * Using Jupyter Notebook
-* Python language basics
+* Python fundamentals I
 * Importing Python libraries
 * Reading data from a csv file with *pandas*
 * Plotting data with *matplotlib*
@@ -61,6 +61,7 @@ It covers more advanced topics.
 *Topics:*
 
 * Introductions
+* Python fundamentals II
 * Loops, conditionals, try-except block, functions
 * NetCDF and xarray
 * Analysis and visualization with Pangeo
