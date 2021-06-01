@@ -14,6 +14,7 @@ use some of the plentiful scientific libraries available in Python.
 ## Instructors
 
 * [Mark Piper](https://instaar.colorado.edu/people/mark-piper/)
+* Jeffrey Schmidt
 
 
 ## Requirements
@@ -75,11 +76,13 @@ Python:
 * [Data Carpentry][dc]
 * The official [Python tutorial][python-tutorial] is somewhat advanced, but has a lot of information
 * The [TutorialsPoint Python tutorial][tp-tutorial] is also well done, and perhaps easier to follow
+* When I have a Python question, usually someone on [Stack Overflow][stack-overflow] has an answer
 
 CU Boulder:
-* [Cooperative Institute for Research in Environmental Sciences (CIRES)][cires]
 * [Community Surface Dynamics Modeling System (CSDMS)][csdms]
+* [Cooperative Institute for Research in Environmental Sciences (CIRES)][cires]
 * [EarthLab][earthlab]
+* [Earth Surface Processes Institute][espin] (ESPIn) summer school
 
 
 ## Acknowledgments
@@ -103,10 +106,12 @@ NEON (National Ecological Observatory Network). 2D wind speed and direction
 [csdms-award]: https://nsf.gov/awardsearch/showAward?AWD_ID=1831623
 [dc]: https://datacarpentry.org/
 [earthlab]: https://earthlab.colorado.edu/
+[espin]: https://github.com/csdms/espin
 [nbgitpuller-link]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs-2021&urlpath=tree%2Freccs-2021%2Fnotebooks%2F0_overview.ipynb&branch=main
 [python-tutorial]: https://docs.python.org/3/tutorial/
 [reccs]: https://cires.colorado.edu/outreach/reccs
 [swc]: https://software-carpentry.org/
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
 [swc-python]: https://swcarpentry.github.io/python-novice-inflammation/
+[stack-overflow]: https://stackoverflow.com/
 [tp-tutorial]: https://www.tutorialspoint.com/python/index.htm
