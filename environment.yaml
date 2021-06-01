@@ -1,0 +1,13 @@
+name: reccs
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - rasterio
+  - basemap
+  - notebook
