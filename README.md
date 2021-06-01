@@ -43,7 +43,7 @@ can join and help those with less experience.
 * Why Python?
 * Logging in to the CSDMS JupyterHub
 * Using Jupyter Notebook
-* Python fundamentals I
+* Python fundamentals
 * Importing Python libraries
 * Reading data from a csv file with *pandas*
 * Plotting data with *matplotlib*
@@ -61,10 +61,10 @@ It covers more advanced topics.
 *Topics:*
 
 * Introductions
-* Python fundamentals II
-* Loops, conditionals, try-except block, functions
-* NetCDF and xarray
-* Analysis and visualization with Pangeo
+* Loops, conditionals, `try` statement, functions
+* Reading data from a NetCDF file with *scipy*
+* Analyzing and visualizing data with *Basemap* and *matplotlib*
+* Saving work to a PDF file
 * Exercises and discussion
 
 :arrow_forward: [Run the workshop material on the CSDMS JupyterHub][nbgitpuller-link]
@@ -83,7 +83,7 @@ CU Boulder:
 * [Community Surface Dynamics Modeling System (CSDMS)][csdms]
 * [Cooperative Institute for Research in Environmental Sciences (CIRES)][cires]
 * [EarthLab][earthlab]
-* [Earth Surface Processes Institute][espin] (ESPIn) summer school
+* [Earth Surface Processes Institute (ESPIn)][espin] summer school
 
 
 ## Acknowledgments
@@ -92,13 +92,15 @@ CSDMS is supported by the National Science Foundation
 under Award No. [1831623][csdms-award],
 *Community Facility Support: The Community Surface Dynamics Modeling System (CSDMS)*.
 
-Portions of the Python language basics section were derived
-from material that is Copyright Software Carpentry
+Portions of the Python language fundamentals section were derived
+from material that is copyright Software Carpentry
 and remixed under their [license][swc-license].
 
 NEON (National Ecological Observatory Network). 2D wind speed and direction
 (DP1.00001.001). https://data.neonscience.org (accessed May 26, 2021)
 
+20th Century Reanalysis V2 data provided by the NOAA/OAR/ESRL PSL, Boulder, Colorado, USA,
+from their website at https://psl.noaa.gov/data/gridded/data.20thC_ReanV2.html.
 
 <!-- Links -->
 
