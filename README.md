@@ -11,10 +11,9 @@ The goal of this workshop is to show how working geoscientists
 use some of the plentiful scientific libraries available in Python.
 
 
-## Instructors
+## Instructor
 
 * [Mark Piper](https://instaar.colorado.edu/people/mark-piper/)
-* Jeffrey Schmidt
 
 
 ## Requirements
@@ -35,13 +34,13 @@ The morning session runs from 9 am until noon,
 with a break around the midpoint.
 It covers more basic concepts,
 but people with experience using Python
-can join and help those with less experience.
+can help those with less experience.
 
 *Topics:*
 
 * Introductions
 * Why Python?
-* Logging in to the CSDMS JupyterHub
+* Logging in to the OpenEarthscape JupyterHub
 * Using Jupyter Notebook
 * Python fundamentals
 * Importing Python libraries
@@ -50,7 +49,7 @@ can join and help those with less experience.
 * Saving work to a PDF file
 * Exercises and discussion
 
-:arrow_forward: [Run the workshop material on the CSDMS JupyterHub][nbgitpuller-link]
+:arrow_forward: [Run the workshop material on the OpenEarthscape JupyterHub][nbgitpuller-link]
 
 ### Afternoon
 
@@ -67,7 +66,7 @@ It covers more advanced topics.
 * Saving work to a PDF file
 * Exercises and discussion
 
-:arrow_forward: [Run the workshop material on the CSDMS JupyterHub][nbgitpuller-link]
+:arrow_forward: [Run the workshop material on the OpenEarthscape JupyterHub][nbgitpuller-link]
 
 
 ## Resources
@@ -83,7 +82,6 @@ CU Boulder:
 * [Community Surface Dynamics Modeling System (CSDMS)][csdms]
 * [Cooperative Institute for Research in Environmental Sciences (CIRES)][cires]
 * [EarthLab][earthlab]
-* [Earth Surface Processes Institute (ESPIn)][espin] summer school
 
 
 ## Acknowledgments
@@ -109,8 +107,7 @@ from their website at https://psl.noaa.gov/data/gridded/data.20thC_ReanV2.html.
 [csdms-award]: https://nsf.gov/awardsearch/showAward?AWD_ID=1831623
 [dc]: https://datacarpentry.org/
 [earthlab]: https://earthlab.colorado.edu/
-[espin]: https://github.com/csdms/espin
-[nbgitpuller-link]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs-2021&urlpath=tree%2Freccs-2021%2Fnotebooks%2F0_overview.ipynb&branch=main
+[nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs&urlpath=lab%2Ftree%2Freccs%2Fnotebooks%2F0_overview.ipynb%3Fautodecode&branch=main
 [python-tutorial]: https://docs.python.org/3/tutorial/
 [reccs]: https://cires.colorado.edu/outreach/reccs
 [swc]: https://software-carpentry.org/
