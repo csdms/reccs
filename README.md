@@ -2,7 +2,7 @@
 
 This is a two-part (morning and afternoon) interactive workshop
 on using the Python programming language in the geosciences
-to perform data analysis and visualization.
+to perform data ingest, analysis, and visualization.
 The workshop is a part of the [RECCS][reccs] program at CU Boulder.
 
 This workshop will not teach the details of Python--others have done this (see "Resources" below),
@@ -59,7 +59,6 @@ It covers more advanced topics.
 
 *Topics:*
 
-* Introductions
 * Loops, conditionals, `try` statement, functions
 * Reading data from a NetCDF file with *scipy*
 * Analyzing and visualizing data with *Basemap* and *matplotlib*
