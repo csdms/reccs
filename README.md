@@ -46,7 +46,6 @@ can help those with less experience.
 * Importing Python libraries
 * Reading data from a csv file with *pandas*
 * Plotting data with *matplotlib*
-* Saving work to a PDF file
 * Exercises and discussion
 
 :arrow_forward: [Run the workshop material on the OpenEarthscape JupyterHub][nbgitpuller-link]
@@ -62,10 +61,21 @@ It covers more advanced topics.
 * Loops, conditionals, `try` statement, functions
 * Reading data from a NetCDF file with *scipy*
 * Analyzing and visualizing data with *Basemap* and *matplotlib*
-* Saving work to a PDF file
 * Exercises and discussion
 
 :arrow_forward: [Run the workshop material on the OpenEarthscape JupyterHub][nbgitpuller-link]
+
+### Extra
+
+Given time,
+some additional topics that can be covered.
+
+*Topics:*
+
+* Saving work to a PDF file
+* Using shell commands in a terminal
+* Anaconda and *conda*
+* Using Python modules
 
 
 ## Resources
