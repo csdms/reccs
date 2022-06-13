@@ -86,6 +86,7 @@ Python:
 * The official [Python tutorial][python-tutorial] is somewhat advanced, but has a lot of information
 * The [TutorialsPoint Python tutorial][tp-tutorial] is also well done, and perhaps easier to follow
 * When I have a Python question, usually someone on [Stack Overflow][stack-overflow] has an answer
+* The [Matplotlib Gallery][mpl-gallery]
 * The [CSDMS Ivy][ivy] course material
 
 CU Boulder:
@@ -118,6 +119,7 @@ from their website at https://psl.noaa.gov/data/gridded/data.20thC_ReanV2.html.
 [dc]: https://datacarpentry.org/
 [earthlab]: https://earthlab.colorado.edu/
 [ivy]: https://github.com/csdms/ivy
+[mpl-gallery]: https://matplotlib.org/stable/gallery/index.html
 [nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs&urlpath=lab%2Ftree%2Freccs%2Fnotebooks%2F0_overview.ipynb%3Fautodecode&branch=main
 [python-tutorial]: https://docs.python.org/3/tutorial/
 [reccs]: https://cires.colorado.edu/outreach/reccs
