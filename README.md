@@ -1,11 +1,11 @@
 # Python Programming in the Geosciences
 
 This is a two-part (morning and afternoon) interactive workshop
-on using the Python programming language in the geosciences
+on using the Python programming language
 to perform data ingest, analysis, and visualization.
 The workshop is a part of the [RECCS][reccs] program at CU Boulder.
 
-This workshop will not teach the details of Python--others have done this (see "Resources" below),
+The workshop will not teach the details of Python--others have done this (see "Resources" below),
 and it takes more time than we have.
 The goal of this workshop is to show how working geoscientists
 use some of the plentiful scientific libraries available in Python.
@@ -45,7 +45,6 @@ can help those with less experience.
 * Python fundamentals
 * Importing Python libraries
 * Reading data from a csv file with *pandas*
-* Plotting data with *matplotlib*
 * Exercises and discussion
 
 :arrow_forward: [Run the workshop material on the OpenEarthscape JupyterHub][nbgitpuller-link]
