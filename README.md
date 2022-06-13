@@ -1,11 +1,11 @@
 # Python Programming in the Geosciences
 
 This is a two-part (morning and afternoon) interactive workshop
-on using the Python programming language in the geosciences
+on using the Python programming language
 to perform data ingest, analysis, and visualization.
 The workshop is a part of the [RECCS][reccs] program at CU Boulder.
 
-This workshop will not teach the details of Python--others have done this (see "Resources" below),
+The workshop will not teach the details of Python--others have done this (see "Resources" below),
 and it takes more time than we have.
 The goal of this workshop is to show how working geoscientists
 use some of the plentiful scientific libraries available in Python.
@@ -45,7 +45,6 @@ can help those with less experience.
 * Python fundamentals
 * Importing Python libraries
 * Reading data from a csv file with *pandas*
-* Plotting data with *matplotlib*
 * Exercises and discussion
 
 :arrow_forward: [Run the workshop material on the OpenEarthscape JupyterHub][nbgitpuller-link]
@@ -74,7 +73,7 @@ some additional topics that can be covered.
 
 * Saving work to a PDF file
 * Using shell commands in a terminal
-* Anaconda and *conda*
+* [Anaconda][anaconda] and *conda*
 * Using Python modules
 
 
@@ -86,6 +85,7 @@ Python:
 * The official [Python tutorial][python-tutorial] is somewhat advanced, but has a lot of information
 * The [TutorialsPoint Python tutorial][tp-tutorial] is also well done, and perhaps easier to follow
 * When I have a Python question, usually someone on [Stack Overflow][stack-overflow] has an answer
+* The [Matplotlib Gallery][mpl-gallery]
 * The [CSDMS Ivy][ivy] course material
 
 CU Boulder:
@@ -112,12 +112,14 @@ from their website at https://psl.noaa.gov/data/gridded/data.20thC_ReanV2.html.
 
 <!-- Links -->
 
+[anaconda]: https://www.anaconda.com/
 [cires]: https://cires.colorado.edu/
 [csdms]: http://csdms.colorado.edu
 [csdms-award]: https://nsf.gov/awardsearch/showAward?AWD_ID=1831623
 [dc]: https://datacarpentry.org/
 [earthlab]: https://earthlab.colorado.edu/
 [ivy]: https://github.com/csdms/ivy
+[mpl-gallery]: https://matplotlib.org/stable/gallery/index.html
 [nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs&urlpath=lab%2Ftree%2Freccs%2Fnotebooks%2F0_overview.ipynb%3Fautodecode&branch=main
 [python-tutorial]: https://docs.python.org/3/tutorial/
 [reccs]: https://cires.colorado.edu/outreach/reccs
