@@ -73,7 +73,7 @@ some additional topics that can be covered.
 
 * Saving work to a PDF file
 * Using shell commands in a terminal
-* Anaconda and *conda*
+* [Anaconda][anaconda] and *conda*
 * Using Python modules
 
 
@@ -112,6 +112,7 @@ from their website at https://psl.noaa.gov/data/gridded/data.20thC_ReanV2.html.
 
 <!-- Links -->
 
+[anaconda]: https://www.anaconda.com/
 [cires]: https://cires.colorado.edu/
 [csdms]: http://csdms.colorado.edu
 [csdms-award]: https://nsf.gov/awardsearch/showAward?AWD_ID=1831623
