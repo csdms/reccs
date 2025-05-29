@@ -62,7 +62,7 @@ It covers more advanced topics.
 * Analyzing and visualizing data with *Basemap* and *matplotlib*
 * Exercises and discussion
 
-:arrow_forward: [Run the workshop material on the EarthscapeHub][nbgitpuller-link]
+:arrow_forward: [Run the workshop material on EarthscapeHub][nbgitpuller-link]
 
 ### Extra
 
@@ -120,7 +120,7 @@ from their website at https://psl.noaa.gov/data/gridded/data.20thC_ReanV2.html.
 [instaar]: https://instaar.colorado.edu/
 [ivy]: https://github.com/csdms/ivy
 [mpl-gallery]: https://matplotlib.org/stable/gallery/index.html
-[nbgitpuller-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs&urlpath=lab%2Ftree%2Freccs%2Fnotebooks%2F0_overview.ipynb%3Fautodecode&branch=main
+[nbgitpuller-link]: https://explore.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Freccs&urlpath=lab%2Ftree%2Freccs%2Fnotebooks%2F0_overview.ipynb&branch=main
 [python-tutorial]: https://docs.python.org/3/tutorial/
 [reccs]: https://cires.colorado.edu/outreach/reccs
 [swc]: https://software-carpentry.org/
