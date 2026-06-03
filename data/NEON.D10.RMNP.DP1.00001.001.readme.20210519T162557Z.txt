@@ -1,4 +1,4 @@
-This data package been produced by and downloaded from the National Ecological Observatory Network, managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at http://data.neonscience.org/data-policy. 
+This data package been produced by and downloaded from the National Ecological Observatory Network, managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at http://data.neonscience.org/data-policy.
 
 DATA PRODUCT INFORMATION
 ------------------------
@@ -46,7 +46,7 @@ This zip package contains the following documentation files:
 - Term descriptions, data types, and units: NEON.D10.RMNP.DP1.00001.001.variables.20210519T162557Z.csv
 - Machine-readable metadata file describing the data package: NEON.D10.RMNP.DP1.00001.001.EML.20200901-20201001.20210519T162557Z.xml. This file uses the Ecological Metadata Language schema. Learn more about this specification and tools to parse it at http://data.neonscience.org/faq.
 - Sensor position information: NEON.D10.RMNP.DP1.00001.001.sensor_positions.20210519T162557Z.csv
-- Other related documents, such as engineering specifications, field protocols and data processing documentation: 
+- Other related documents, such as engineering specifications, field protocols and data processing documentation:
 NEON.DOC.000387vC
 NEON.DOC.011081vC
 NEON.DOC.000783vA
@@ -91,9 +91,9 @@ General conventions, used for all data products:
 
    REV: a three-digit designation, referring to the revision number of the data product. The REV value is incremented by 1 each time a major change is made in instrumentation, data collection protocol, or data processing such that data from the preceding revision is not directly comparable to the new.
 
-   HOR: a three-character designation, referring to measurement locations within one horizontal plane. For example, if five surface measurements were taken, one at each of the five soil array plots, the number in the HOR field would range from 001-005. 
+   HOR: a three-character designation, referring to measurement locations within one horizontal plane. For example, if five surface measurements were taken, one at each of the five soil array plots, the number in the HOR field would range from 001-005.
 
-   VER: a three-character designation, referring to measurement locations within one vertical plane. For example, if eight air temperature measurements are collected, one at each tower vertical level, the number in the VER field would range from 010-080. If five soil temperature measurements are collected below the soil surface, the number in the VER field would range from 501-505. 
+   VER: a three-character designation, referring to measurement locations within one vertical plane. For example, if eight air temperature measurements are collected, one at each tower vertical level, the number in the VER field would range from 010-080. If five soil temperature measurements are collected below the soil surface, the number in the VER field would range from 501-505.
 
    TMI: a three-character designation, referring to the temporal representation, averaging period, or coverage of the data product (e.g., minute, hour, month, year, sub-hourly, day, lunar month, single instance, seasonal, annual, multi-annual). 000 = native resolution, 001 = native resolution (variable or regular) or 1 minute, 002 = 2 minute, 005 = 5 minute, 015 = 15 minute, 030 = 30 minute, 060 = 60 minutes or 1 hour, 100 = approximately once per minute at stream sites and once every 5-10 minutes at buoy sites (lakes/rivers), 101-103 = native resolution of replicate sensor 1, 2, and 3 respectively, 999 = Sensor conducts measurements at varied interval depending on air mass, 01D = 1 day, 01M = 1 month, 01Y = 1 year.
 
@@ -135,20 +135,20 @@ Issue Date: 2019-08-02
 Issue: Sensors streaming while boom was fully retracted
        Date Range: 2019-07-01 to 2021-04-30
        Location(s) Affected: HARV ML3(HOR.VER.000.030) and ML4 (HOR.VER.000.040)
-Resolution Date: 
+Resolution Date:
 Resolution: Ongoing. Manual flagging is being applied.
 
 Issue Date: 2020-11-06
 Issue: An error in the computation of average wind direction causes wind direction data to be absent around the 360 to ~5 degrees range.
        Date Range: 2013-01-01 to 2021-12-31
        Location(s) Affected: All
-Resolution Date: 
+Resolution Date:
 Resolution: No resolution to date. Further investigation in the wind direction averaging algorithm is needed.
 
 Issue Date: 2021-01-11
 Issue: Safety measures to protect personnel during the COVID-19 pandemic resulted in reduced or eliminated maintenance activities for extended periods at NEON sites. Data availability and/or quality may be negatively impacted during this time, and extra scrutiny of data is advised.
 
-The annual refresh of sensors and data acquisition systems (DAS) also did not occur according to the typical 1-year schedule for many sites. The annual refresh is where freshly calibrated and verified sensors and DAS replace the units that have been deployed for a year. While NEON is working towards implementing automated drift estimations/corrections on calibrated data products and flagging related to sensors that fall outside the policy for calibration frequency, this had not been implemented at the time of COVID impacts. 
+The annual refresh of sensors and data acquisition systems (DAS) also did not occur according to the typical 1-year schedule for many sites. The annual refresh is where freshly calibrated and verified sensors and DAS replace the units that have been deployed for a year. While NEON is working towards implementing automated drift estimations/corrections on calibrated data products and flagging related to sensors that fall outside the policy for calibration frequency, this had not been implemented at the time of COVID impacts.
 
 The following sites had annual refreshes canceled in 2020 and will likely go up to two years of deployment for their sensors:
 BLWA (due May 2020)
@@ -160,8 +160,8 @@ NOGP (due Aug 2020)
 SOAP (due Sept 2020)
        Date Range: 2020-03-23 to 2021-06-01
        Location(s) Affected: ALL
-Resolution Date: 
-Resolution: 
+Resolution Date:
+Resolution:
 
 Issue Date: 2021-04-13
 Issue: Sensor was streaming while buried in snow
@@ -271,7 +271,7 @@ Issue: All data were reprocessed with the most recent algorithms, quality contro
        Date Range: 2013-01-01 to 2020-06-10
        Location(s) Affected: All sites
 Resolution Date: 2020-06-10
-Resolution: 
+Resolution:
 
 Issue Date: 2020-06-09
 Issue: Inconsistent orientation led to inaccurate wind-direction data
@@ -346,7 +346,7 @@ Issue: The alpha and beta quality metric multipliers used for computing the fina
        Date Range: 2020-01-08 to 2020-01-08
        Location(s) Affected: All
 Resolution Date: 2020-01-08
-Resolution: 2020-01-08: Processing code corrected in forward processing. 
+Resolution: 2020-01-08: Processing code corrected in forward processing.
 2020-06-10: All data reprocessed. Issue corrected.
 
 Issue Date: 2020-01-06
@@ -580,6 +580,6 @@ Please visit http://data.neonscience.org/data-policy for more information about 
 DATA QUALITY AND VERSIONING
 ---------------------------
 
-The data contained in this file are considered provisional. Updates to the data, QA/QC and/or processing algorithms over time will occur on an as-needed basis.  Please check back to this site for updates tracked in change logs.  Query reproducibility on provisional data cannot be guaranteed. 
- 
+The data contained in this file are considered provisional. Updates to the data, QA/QC and/or processing algorithms over time will occur on an as-needed basis.  Please check back to this site for updates tracked in change logs.  Query reproducibility on provisional data cannot be guaranteed.
+
 Starting in 2020 or earlier, NEON will begin to offer static versions of each data product, annotated with a globally unique identifier. Versioned IS and OS data will be produced by reprocessing each IS and OS data product from the beginning of the data collection period to approximately 12-18 months prior to the reprocessing date (to allow for calibration checks, return of external lab data, etc.). The reprocessing step will use the most recent QA/QC methods and processing algorithms. Versioned AOP data will be produced by reprocessing the entire AOP archive as advances in algorithms and processing technology are incorporated. This will typically occur in the northern winter months, between flight season peaks, and will be on the order of every 3 to 5 years in frequency.
