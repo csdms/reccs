@@ -2,7 +2,7 @@
 
 All notable changes to this project are documented here.
 
-## [Unreleased]
+## [v0.4] — 2028-06-04
 
 ### Added
 - Community health files: credits and support documents
