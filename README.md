@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/362539394.svg)](https://doi.org/10.5281/zenodo.20548684)
+[![Notebooks](https://github.com/csdms/reccs/actions/workflows/test-notebooks.yml/badge.svg)](https://github.com/csdms/reccs/actions/workflows/test-notebooks.yml)
+
 # Python Programming in the Geosciences
 
 This is a two-part (morning and afternoon) interactive workshop
