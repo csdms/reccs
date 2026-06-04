@@ -13,7 +13,7 @@ might use some of the plentiful scientific libraries available in Python.
 
 ## Instructor
 
-* [Mark Piper](https://instaar.colorado.edu/people/mark-piper/)
+* [Mark Piper](https://www.colorado.edu/instaar/mark-piper)
 
 
 ## Requirements
